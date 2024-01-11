@@ -6,4 +6,4 @@ function fruit(fruitType, weightInGrams, pricePerKg){
 
 }
 fruit('orange', 2500, 1.80 );
-fruit('apple', 1563, 2.35)
+fruit('apple', 1563, 2.35);
