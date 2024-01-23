@@ -1,9 +1,9 @@
 function rotateArray(arr, rotation){
-    let array = '';
+    let element = '';
 
     for(let i = 0; i < rotation; i++) {
-        array = arr.pop();
-        arr.unshift(array);
+        element = arr.pop();
+        arr.unshift(element);
     }
 
     console.log(arr.join(' '));
