@@ -14,7 +14,7 @@ function lowestPrise(input) {
             result[product].price = price;
             result[product].town = town;
         }
-        console.log(result);
+    
     }
     for (let [key, value] of Object.entries(result)) {
         console.log(`${key} -> ${value.price} (${value.town})`);
